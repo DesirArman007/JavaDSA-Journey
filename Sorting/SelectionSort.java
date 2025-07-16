@@ -19,14 +19,12 @@ public class SelectionSort {
             swap(arr,maxIndex, last);
         }
     }
-
     private static int getMaxIndex(int[] arr, int start, int end) {
         int maxIndex = start;
         while (start <= end){
             if(arr[start] > arr[maxIndex]){
                 maxIndex = start;
             }
-
             start++;
         }
 

@@ -21,7 +21,6 @@ public class BubbleSort {
                     swapped=true;
                 }
             }
-
             // if you dont swap for a particular value of i it means the array is sorted
             if(!swapped){
                 break;
