@@ -2,6 +2,7 @@ package Recursion;
 
 public class binarySearch {
     public static void main(String[] args) {
+
             int[] arr={1,3,4,5,6,7,8};
             System.out.println(BS(arr, 7,0,arr.length-1));
     }

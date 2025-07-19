@@ -2,6 +2,7 @@ package Pattern;
 
 public class Pattern5 {
     public static void main(String[] args) {
+        
         int num=5;
 
         for(int row=0; row<2*num; row++){
