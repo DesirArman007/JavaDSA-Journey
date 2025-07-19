@@ -1,2 +1,5 @@
-.idea/
+# Ignore compiled files and IDE files
+*.class
+*.log
 out/
+.idea/
