@@ -1,9 +1,8 @@
 package Maths;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class factors {
+public class Factors {
     public static void main(String[] args) {
         int n=40;
         printFactors(n);

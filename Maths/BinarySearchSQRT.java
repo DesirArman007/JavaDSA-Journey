@@ -1,6 +1,6 @@
 package Maths;
 
-public class binarySearchSQRT {
+public class BinarySearchSQRT {
     public static void main(String[] args) {
         // number
         int n=40;
