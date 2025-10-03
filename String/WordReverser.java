@@ -23,7 +23,7 @@ public class WordReverser {
     }
 
     static void swap(StringBuilder sb, int i, int j) {
-        char temp = sb.charAt(i);
+       ; char temp = sb.charAt(i);
         sb.setCharAt(i, sb.charAt(j));
         sb.setCharAt(j, temp);
     }

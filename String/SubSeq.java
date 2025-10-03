@@ -4,11 +4,13 @@ import java.util.ArrayList;
 
 public class SubSeq {
     public static void main(String[] args) {
-        String str="abc";
-        subSet("",str);
+        String str="aab";
+        for(int i=0; i<str.length(); i++){
+            subSet("",str.substring(i));
+        }
         System.out.println();
         System.out.println();
-        subSetASCIIvalue("",str);
+//        subSetASCIIvalue("",str);
     }
 
 

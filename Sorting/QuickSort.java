@@ -13,7 +13,6 @@ public class QuickSort {
         if(low>=high){
             return;
         }
-
         int s = low;
         int e = high;
         int m= s+(e-s)/2;
